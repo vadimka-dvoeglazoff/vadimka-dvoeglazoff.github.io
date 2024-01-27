@@ -20,6 +20,7 @@ author: Вадим Двоеглазов
 ###############################################
 
 navbar-links:
+  Главная: "/"
   Обо мне: "aboutme"
   #Resources:
   #  - Beautiful Jekyll: "https://beautifuljekyll.com"
