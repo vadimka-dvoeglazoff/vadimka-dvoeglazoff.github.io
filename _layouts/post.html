@@ -53,7 +53,7 @@ layout: base
       {% endif %}
 
       {% if page.after-content %}
-        <div>
+        <div class="after-content">
           {% for file in page.after-content %}
             {% include {{ file }} %}
           {% endfor %}
