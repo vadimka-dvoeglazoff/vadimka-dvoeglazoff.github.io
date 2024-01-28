@@ -4,7 +4,7 @@
 ### set up your website you should go through all these settings and edit them, but after
 ### the initial set up you won't need to come back to this file often.
 ###########################################################
-
+locale: "ru"
 ############################
 # --- Required options --- #
 ############################
@@ -39,7 +39,7 @@ avatar: "/assets/img/avatar-icon.png"
 round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
-# then specify the following parameter
+# th specify the following parameter
 #title-img: /path/to/image
 
 
@@ -49,7 +49,7 @@ round-avatar: true
 
 # Select the social network links that you want to show in the footer.
 # You can change the order that they show up on the page by changing the order here.
-# Uncomment the links you want to show and add your information to each one.
+# Uncommt the links you want to show and add your information to each one.
 social-network-links:
 #  email: "someone@example.com"
 #  rss: true  # remove this line if you don't want to show an RSS link at the bottom
@@ -71,7 +71,7 @@ social-network-links:
 #  twitch: yourname
 #  yelp: yourname
 #  telegram: yourname
-#  calendly: yourname
+#  caldly: yourname
 #  mastodon: instance.url/@username
 #  bluesky: yourname
 #  ORCID: your ORCID ID
@@ -82,12 +82,12 @@ social-network-links:
 #  gitlab: yourname
 #  itchio: yourname
 
-# If you want your website to generate an RSS feed, provide a description
+# If you want your website to gerate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
 #rss-description: This website is a virtual proof that I'm awesome
 
 ###########################
-# --- General options --- #
+# --- Geral options --- #
 ###########################
 
 # Select which social network share links to show in posts
@@ -104,8 +104,8 @@ share-links-active:
 # Add the website title to the title of every page
 title-on-all-pages: false
 
-# Excerpt word length - Truncate the excerpt of each post on the feed page to the specified number of words
-excerpt_length: 50
+# Excerpt word lgth - Truncate the excerpt of each post on the feed page to the specified number of words
+excerpt_lgth: 50
 
 # Whether or not to show an excerpt for every blog post in the feed page
 feed_show_excerpt: true
