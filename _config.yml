@@ -219,7 +219,7 @@ footer-hover-col: "#0085A1"
 # instructions. For any support with staticman please direct questions to staticman and 
 # not to BeautifulJekyll.
 staticman:
-  repository : "vadimka-dvoeglazoff/vadimka-dvoeglazoff.github.io"
+#  repository : "vadimka-dvoeglazoff/vadimka-dvoeglazoff.github.io"
   branch     : master # If you're not using `master` branch, then you also need to update the `branch` parameter in `staticman.yml`
   endpoint   : "https://vadimka-dvoeglazoff.github.io/"
 #  reCaptcha:   # (optional, set these parameters in `staticman.yml` as well) 
