@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Laravel Queues/Jobs (Очереди)
-Теги: [Laravel]
+Tegs: [Laravel]
 comments: false
-Автор: Вадим Двоеглазов
+Author: Вадим Двоеглазов
 ---
 
 Создать миграцию для таблицы **Jobs**: `php artisan queues:table`
