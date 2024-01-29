@@ -16,4 +16,4 @@ author: Вадим Двоеглазов
 
 Для создания таблицы **Jobs** в БД необходимо выполнить миграцию, команда: `php artisan migrate`
 
-Далее создаем саму задачу и переносим в неё код выполнения длительной операции, к примеру, с названием SendNotificationAllUsersJob, для рассылки уведомлений всем пользователям ресурса: `php artisan make:job SendNotificationAllUsersJob`
+Далее создаем саму задачу и переносим в неё код выполнения длительной операции, к примеру, задачу с названием SendNotificationAllUsersJob, для рассылки уведомлений всем пользователям ресурса: `php artisan make:job SendNotificationAllUsersJob`
