@@ -7,4 +7,5 @@ comments: false
 ---
 
 Создать миграцию для таблицы Jobs: `php artisan queues:table`
+
 Выполнить миграцию: `php artisan migrate`
