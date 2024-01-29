@@ -6,8 +6,9 @@ comments: false
 author: Вадим Двоеглазов
 ---
 
-Создать миграцию для таблицы **Jobs**: `php artisan queues:table`
+Для выполнения длительных операций в Laravel можно воспользоваться механизмом очередей. Миграции таблицы **Jobs**, для записи заданий на выполнения, по умолчанию нет в Laravel.
+Чтобы создать миграцию необходимо выпонить в терминале команду: `php artisan queues:table`
 
-Выполнить миграцию: `php artisan migrate`
+Для создания таблицы в БД необходимо выполнить миграцию, команда: `php artisan migrate`
 
-Создать задачу для очереди, к примеру, с названием SendNotificationAllUsersJob: `php artisan make:job SendNotificationAllUsersJob`
+Далее создаем сами задачи и переносим в них код выполнения длительных операций, к примеру, с названием SendNotificationAllUsersJob, для рассылки уведомлений всем пользователям ресурса: `php artisan make:job SendNotificationAllUsersJob`
