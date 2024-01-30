@@ -2,7 +2,7 @@
 layout: post
 title: Laravel Queues/Jobs (Очереди)
 tags: [Laravel]
-comments: false
+comments: true
 author: Вадим Двоеглазов
 ---
 
