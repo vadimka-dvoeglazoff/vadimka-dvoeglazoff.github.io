@@ -12,7 +12,7 @@ layout: null
     const endpoint = '{{ sm.endpoint }}';
     const repository = '{{ sm.repository }}';
     const branch = '{{ sm.branch }}';
-    const url = endpoint + repository + '/' + branch + '/comments/';
+    const url = endpoint + repository + '/' + branch + '/comments';
     const data = $(this).serialize();
 
     const xhr = new XMLHttpRequest();
